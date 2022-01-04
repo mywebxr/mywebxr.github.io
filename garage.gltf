@@ -193,26 +193,28 @@
         },
         {
             "doubleSided" : true,
-            "name" : "mat16.001",
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "extensions" : {
-                        "KHR_texture_transform" : {
-                            "offset" : [
-                                -0.3999999761581421,
-                                -99.59999996423721
-                            ],
-                            "scale" : [
-                                -100,
-                                100
-                            ]
-                        }
-                    },
-                    "index" : 0
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "extensions" : {
+                    "KHR_texture_transform" : {
+                        "offset" : [
+                            -0.3999999761581421,
+                            -99.59999996423721
+                        ],
+                        "scale" : [
+                            -100,
+                            100
+                        ]
+                    }
                 },
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5
-            }
+                "index" : 0
+            },
+            "name" : "mat16.001",
+            "pbrMetallicRoughness" : {}
         },
         {
             "doubleSided" : true,
